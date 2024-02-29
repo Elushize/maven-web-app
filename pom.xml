@@ -97,7 +97,7 @@
 	      <id>nexus</id>
 	      <name>Acada Learning Snapshot Nexus Repository</name>
 	      <url>http:/172.31.95.151:8081/repository//maven_web_app_snapshot/</url>
-	    </Repository>
+	    </snapshotRepository>
 	    
 	</distributionManagement>
 	
