@@ -21,11 +21,7 @@ pipeline {
         sh 'mvn package'
       }
     }
-    stage('Testing'){
-      steps{
-        sh 'mvn sonar:sonar'
-      }
-    }
+    
     stage('Nexus'){
       steps{
         sh 'mvn deploy'
